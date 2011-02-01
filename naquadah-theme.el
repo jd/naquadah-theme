@@ -103,7 +103,7 @@
    `(gnus-header-subject ((t (:foreground ,yellow))))
    `(gnus-header-content ((t (:italic t :foreground ,green))))
    `(gnus-header-newsgroups-face ((t (:italic t :bold t :foreground ,light-blue))))
-   '(gnus-signature-face ((t (:italic t :foreground "OliveDrab1"))))
+   `(gnus-signature-face ((t (:italic t :foreground ,pale-yellow))))
    `(gnus-summary-cancelled-face ((t (:background "black" :foreground ,yellow))))
    '(gnus-summary-normal-ancient-face ((t (:foreground "medium sea green"))))
    `(gnus-summary-normal-read-face ((t (:foreground ,green))))
