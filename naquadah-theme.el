@@ -115,7 +115,7 @@
    '(gnus-summary-low-ticked-face ((t (:inherit 'gnus-summary-normal-ticked-face :italic t))))
    '(gnus-summary-low-unread-face ((t (:inherit 'gnus-summary-normal-unread-face :italic t))))
    '(spam-face ((t (:background "black" :foreground "magenta3"))))
-   `(gnus-summary-selected ((t (:background ,light-blue :foreground "white"))))
+   `(gnus-summary-selected ((t (:background ,blue :foreground "white"))))
    '(message-header-name-face ((t (:foreground "#729cfc"))))
    '(message-header-newsgroups-face ((t (:italic t :bold t :foreground "LightSkyBlue3"))))
    '(message-header-other-face ((t (:foreground "LightSkyBlue3"))))
