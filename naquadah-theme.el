@@ -81,7 +81,7 @@
    `(default ((((min-colors 4096)) (:background ,background :foreground ,aluminium-1))))
    `(shadow ((t (:foreground ,aluminium-3))))
    `(cursor ((t (:background ,scarlet-red-3))))
-   `(hl-line ((t (:background ,aluminium-6)))))
+   `(hl-line ((t (:background ,aluminium-6))))
    `(highlight ((t (:background ,scarlet-red-2))))
    `(fringe ((t (:background ,black))))
    `(mode-line ((t (:foreground ,aluminium-1 :background ,black
@@ -113,8 +113,9 @@
 
    '(comint-highlight-prompt ((t ())))
 
-   `(isearch ((t (:background ,orange-1 :foreground ,background))))
+   `(isearch ((t (:background ,orange-3 :foreground ,background))))
    `(isearch-fail ((t (:background ,scarlet-red-2))))
+   `(lazy-highlight ((t (:background ,chocolate-1 :foreground ,background))))
 
    `(show-paren-match-face ((t (:background ,chameleon-3))))
    `(show-paren-mismatch-face ((t (:background ,plum-3))))
