@@ -212,6 +212,7 @@
    `(org-habit-ready-future-face ((t (:background ,chameleon-3))))
    `(org-habit-ready-face ((t (:background ,chameleon-2 :foreground ,black))))
    `(org-habit-alert-ready-future-face ((t (:background ,orange-3))))
+   `(org-habit-overdue-face ((t (:background ,scarlet-red-3))))
    `(org-habit-overdue-future-face ((t (:background ,scarlet-red-3))))
 
    ;; egocentric-mode
