@@ -179,6 +179,7 @@
    '(message-header-subject ((t (:inherit 'gnus-header-subject))))
    `(message-header-cc ((t (:foreground ,aluminium-2))))
    `(message-header-xheader ((t (:foreground ,aluminium-4))))
+   `(message-separator ((t (:foreground ,sky-blue-3))))
 
    ;; org-mode
    `(org-level-1 ((t (:bold t :foreground ,gradient-1 :height 1.3))))
