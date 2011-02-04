@@ -24,6 +24,10 @@
 (deftheme naquadah
   "Naquadah theme.")
 
+
+;; We want the face to be created even if they do not exist.
+(put 'naquadah 'theme-immediate t)
+
 ;; This colors are stolen from Tango.
 
 (let* ((aluminium-1 "#eeeeec")
@@ -165,7 +169,7 @@
    `(gnus-summary-normal-unread ((t (:foreground ,aluminium-1))))
    '(gnus-summary-high-ancient ((t (:inherit 'gnus-summary-normal-ancient))))
    '(gnus-summary-high-read ((t (:inherit 'gnus-summary-normal-read))))
-   `(gnus-summary-high-ticked ((t (:inherit 'gnus-summary-normal-ticked))))
+   '(gnus-summary-high-ticked ((t (:inherit 'gnus-summary-normal-ticked))))
    '(gnus-summary-high-unread ((t (:inherit 'gnus-summary-normal-unread))))
    '(gnus-summary-low-ancient ((t (:inherit 'gnus-summary-normal-ancient) :italic t)))
    '(gnus-summary-low-read ((t (:inherit 'gnus-summary-normal-read :italic t))))
