@@ -209,7 +209,7 @@
    `(org-time-grid ((t (:inherit 'shadow))))
    `(org-agenda-date ((t (:foreground ,butter-1 :height 1.2))))
    `(org-agenda-date-today ((t (:inherit 'org-agenda-date :foreground ,butter-2 :weight bold :height 1.3))))
-   `(org-agenda-date-telecommuting ((t (:inherit 'org-agenda-date :foreground ,orange-1))))
+   `(org-agenda-date-tc ((t (:inherit 'org-agenda-date :foreground ,butter-3))))
    `(org-agenda-date-weekend ((t (:inherit 'org-agenda-date :foreground ,scarlet-red-1 :weight bold))))
 
    `(org-habit-clear-future-face ((t (:background ,sky-blue-3))))
