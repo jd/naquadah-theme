@@ -251,6 +251,25 @@
    `(diff-header ((t (:background ,aluminium-6))))
    `(diff-file-header ((t (:foreground ,aluminium-1))))
 
+   ;; magit
+   '(magit-diff-add ((t (:inherit diff-added))))
+   '(magit-diff-del ((t (:inherit diff-removed))))
+   '(magit-diff-none ((t (:inherit diff-context))))
+   '(magit-diff-hunk-header ((t (:inherit (magit-header diff-hunk-header)))))
+   '(magit-diff-file-header  ((t (:inherit (magit-header diff-file-header)))))
+   `(magit-log-sha1 ((t (:foreground ,scarlet-red-1))))
+   `(magit-log-graph ((t (:foreground ,aluminium-2))))
+   `(magit-item-highlight ((t (:background ,aluminium-6))))
+   `(magit-item-mark ((t (:foreground ,orange-1))))
+   `(magit-log-tag-label ((t (:background ,chameleon-3 :box t))))
+   `(magit-log-head-label-bisect-good ((t (:background ,chameleon-2 :box t))))
+   `(magit-log-head-label-bisect-bad ((t (:background ,scarlet-red-3 :box t))))
+   `(magit-log-head-label-remote ((t (:background ,butter-2 :box t))))
+   '(magit-log-head-label-tags ((t (:inherit (magit-log-tag-label)))))
+   `(magit-log-head-label-local ((t (:foreground ,sky-blue-1 :background ,aluminium-5
+                                                 :box t))))
+
+
    ;; git-commit-mode
    '(git-commit-summary-face ((t (:bold t))))
    `(git-commit-branch-face ((t (:foreground ,orange-2 :bold t))))
