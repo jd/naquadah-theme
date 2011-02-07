@@ -197,6 +197,8 @@
    `(org-level-7 ((t (:bold t :foreground ,gradient-7))))
    `(org-level-8 ((t (:bold t :foreground ,gradient-8))))
 
+   `(org-document-title ((t (:bold t :foreground ,sky-blue-1 :height 1.4))))
+   `(org-document-info ((t (:foreground ,sky-blue-1 :italic t))))
    `(org-todo ((t (:bold t :foreground ,scarlet-red-2))))
    `(org-done ((t (:bold t :foreground ,chameleon-3))))
    `(org-hide ((t (:foreground ,background))))
