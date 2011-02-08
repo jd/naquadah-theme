@@ -278,6 +278,9 @@
    '(git-commit-known-pseudo-header-face ((t (:inherit gnus-header-name-face))))
    '(git-commit-pseudo-header-face ((t (:inherit gnus-header-content))))
 
+   ;; makefile-mode
+   `(makefile-space ((t (:background ,plum-3))))
+
    ;; rst-mode
    `(rst-level-1-face ((t (:foreground ,gradient-1 :height 1.3))))
    `(rst-level-2-face ((t (:foreground ,gradient-2 :height 1.2))))
