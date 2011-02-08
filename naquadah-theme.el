@@ -171,7 +171,7 @@
    '(gnus-summary-high-read ((t (:inherit 'gnus-summary-normal-read))))
    '(gnus-summary-high-ticked ((t (:inherit 'gnus-summary-normal-ticked))))
    '(gnus-summary-high-unread ((t (:inherit 'gnus-summary-normal-unread))))
-   '(gnus-summary-low-ancient ((t (:inherit 'gnus-summary-normal-ancient) :italic t)))
+   '(gnus-summary-low-ancient ((t (:inherit 'gnus-summary-normal-ancient :italic t))))
    '(gnus-summary-low-read ((t (:inherit 'gnus-summary-normal-read :italic t))))
    '(gnus-summary-low-ticked ((t (:inherit 'gnus-summary-normal-ticked :italic t))))
    '(gnus-summary-low-unread ((t (:inherit 'gnus-summary-normal-unread :italic t))))
