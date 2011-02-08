@@ -84,6 +84,7 @@
    'naquadah
    `(default ((((min-colors 4096)) (:background ,background :foreground ,aluminium-1))))
    `(shadow ((t (:foreground ,aluminium-3))))
+   `(secondary-selection ((t (:background ,sky-blue-3))))
    `(cursor ((t (:background ,scarlet-red-3))))
    `(hl-line ((t (:background ,aluminium-6))))
    `(highlight ((t (:background ,scarlet-red-2))))
