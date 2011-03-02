@@ -264,13 +264,13 @@
    `(magit-log-graph ((t (:foreground ,aluminium-2))))
    `(magit-item-highlight ((t (:background ,aluminium-6))))
    `(magit-item-mark ((t (:foreground ,orange-1))))
-   `(magit-log-tag-label ((t (:background ,chameleon-3 :box t :foreground ,black))))
+   `(magit-log-tag-label ((t (:background ,chameleon-3 :box t :foreground ,aluminium-6))))
    `(magit-log-head-label-bisect-good ((t (:background ,chameleon-2 :box t))))
    `(magit-log-head-label-bisect-bad ((t (:background ,scarlet-red-3 :box t))))
-   `(magit-log-head-label-remote ((t (:background ,butter-2 :box t :foreground ,black))))
+   `(magit-log-head-label-remote ((t (:foreground ,aluminium-6 :background ,butter-2 :box (:color ,butter-3)))))
    '(magit-log-head-label-tags ((t (:inherit (magit-log-tag-label)))))
-   `(magit-log-head-label-local ((t (:foreground ,black :background ,sky-blue-1
-                                                 :box t))))
+   `(magit-log-head-label-local ((t (:foreground ,aluminium-1 :background ,sky-blue-2
+                                                 :box (:color ,sky-blue-3)))))
 
 
    ;; git-commit-mode
