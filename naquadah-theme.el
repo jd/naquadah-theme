@@ -350,6 +350,20 @@
  ;; makefile-mode
  '(makefile-space (:background plum-3))
 
+ ;; rainbow-delimiters
+ '(rainbow-delimiters-depth-1-face (:foreground gradient-1))
+ '(rainbow-delimiters-depth-2-face (:foreground gradient-2))
+ '(rainbow-delimiters-depth-3-face (:foreground gradient-3))
+ '(rainbow-delimiters-depth-4-face (:foreground gradient-4))
+ '(rainbow-delimiters-depth-5-face (:foreground gradient-5))
+ '(rainbow-delimiters-depth-6-face (:foreground gradient-6))
+ '(rainbow-delimiters-depth-7-face (:foreground gradient-7))
+ '(rainbow-delimiters-depth-8-face (:foreground gradient-8))
+ '(rainbow-delimiters-depth-9-face (:foreground gradient-9))
+ '(rainbow-delimiters-depth-10-face (:foreground gradient-10))
+ '(rainbow-delimiters-depth-11-face (:foreground gradient-11))
+ '(rainbow-delimiters-depth-12-face (:foreground gradient-1))
+
  ;; rst-mode
  '(rst-level-1-face (:foreground gradient-1 :height 1.3))
  '(rst-level-2-face (:foreground gradient-2 :height 1.2))
@@ -357,6 +371,7 @@
  '(rst-level-4-face (:foreground gradient-4))
  '(rst-level-5-face (:foreground gradient-5))
  '(rst-level-6-face (:foreground gradient-6)))
+
 
 (provide-theme 'naquadah)
 
