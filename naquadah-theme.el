@@ -259,6 +259,7 @@
  '(gnus-summary-low-ticked (:inherit 'gnus-summary-normal-ticked :italic t))
  '(gnus-summary-low-unread (:inherit 'gnus-summary-normal-unread :italic t))
  '(gnus-summary-selected (:background sky-blue-3 :foreground aluminium-1))
+ '(gnus-button (:inherit link))
  '(spam (:background black :foreground orange-2))
 
  '(message-header-name (:inherit 'gnus-header-name))
