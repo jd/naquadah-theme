@@ -118,6 +118,22 @@
       condition.  The format is: ((condition) (key . value) (key
       . value) ...)")
 
+(defun naquadah-get-colors (name)
+  (cdr
+   (assoc
+    name
+    (car naquadah-colors))))
+
+(setq ansi-term-color-vector
+      `[unspecified ,(naquadah-get-colors 'black)
+                    ,(naquadah-get-colors 'scarlet-red-1)
+                    ,(naquadah-get-colors 'chameleon-1)
+                    ,(naquadah-get-colors 'butter-1)
+                    ,(naquadah-get-colors 'sky-blue-1)
+                    ,(naquadah-get-colors 'plum-1)
+                    "cyan3"
+                    ,(naquadah-get-colors 'aluminium-1)])
+
 (defun naquadah-simple-face-to-multiple (face)
   (let ((spec (car face))
         (lst (cadr face)))
@@ -309,6 +325,10 @@
 
  '(which-func (:foreground sky-blue-1))
 
+ '(dired-directory (:foreground sky-blue-1))
+ '(dired-symlink (:bold t :foreground "cyan"))
+ '(dired-marked (:bold t :foreground butter-1))
+
  '(mm-uu-extract (:background aluminium-6))
 
  ;; diff-mode
@@ -371,7 +391,6 @@
  '(rst-level-4-face (:foreground gradient-4))
  '(rst-level-5-face (:foreground gradient-5))
  '(rst-level-6-face (:foreground gradient-6)))
-
 
 (provide-theme 'naquadah)
 
