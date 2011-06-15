@@ -242,7 +242,7 @@
  '(gnus-header-from (:bold t))
  '(gnus-header-to (:bold t :foreground aluminium-2))
  '(gnus-header-subject ())
- '(gnus-header-content (:italic t :foreground aluminium-3))
+ '(gnus-header-content (:italic t :foreground aluminium-2))
  '(gnus-header-newsgroups (:inherit 'gnus-header-to))
  '(gnus-signature (:italic t :foreground aluminium-3))
  '(gnus-summary-cancelled (:background black :foreground butter-1))
