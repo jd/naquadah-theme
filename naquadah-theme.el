@@ -262,6 +262,7 @@
  '(gnus-button (:bold t :foreground aluminium-2))
  '(spam (:background black :foreground orange-2))
 
+ '(message-header-newsgroups (:inherit gnus-header-newsgroups))
  '(message-header-name (:inherit 'gnus-header-name))
  '(message-header-to ())
  '(message-header-other ())
