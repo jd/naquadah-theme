@@ -264,8 +264,8 @@
 
  '(message-header-newsgroups (:inherit gnus-header-newsgroups))
  '(message-header-name (:inherit 'gnus-header-name))
- '(message-header-to ())
- '(message-header-other ())
+ '(message-header-to (:inherit gnus-header-to))
+ '(message-header-other (:inherit gnus-header-content))
  '(message-header-subject (:inherit 'gnus-header-subject))
  '(message-header-cc (:foreground aluminium-2))
  '(message-header-xheader (:foreground aluminium-4))
