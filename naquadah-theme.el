@@ -385,6 +385,7 @@
  '(rainbow-delimiters-depth-10-face (:foreground gradient-10))
  '(rainbow-delimiters-depth-11-face (:foreground gradient-11))
  '(rainbow-delimiters-depth-12-face (:foreground gradient-1))
+ '(rainbow-delimiters-unmatched-face (:foreground black :background butter-3))
 
  ;; rst-mode
  '(rst-level-1-face (:foreground gradient-1 :height 1.3))
