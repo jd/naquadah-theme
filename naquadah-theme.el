@@ -241,7 +241,7 @@
  '(gnus-header-name (:bold t :foreground sky-blue-1))
  '(gnus-header-from (:bold t))
  '(gnus-header-to (:bold t :foreground aluminium-2))
- '(gnus-header-subject ())
+ '(gnus-header-subject (:foreground butter-1))
  '(gnus-header-content (:italic t :foreground aluminium-2))
  '(gnus-header-newsgroups (:inherit 'gnus-header-to))
  '(gnus-signature (:italic t :foreground aluminium-3))
@@ -259,7 +259,7 @@
  '(gnus-summary-low-ticked (:inherit 'gnus-summary-normal-ticked :italic t))
  '(gnus-summary-low-unread (:inherit 'gnus-summary-normal-unread :italic t))
  '(gnus-summary-selected (:background sky-blue-3 :foreground aluminium-1))
- '(gnus-button (:bold t :foreground aluminium-2))
+ '(gnus-button (:bold t))
  '(spam (:background black :foreground orange-2))
 
  '(message-header-newsgroups (:inherit gnus-header-newsgroups))
