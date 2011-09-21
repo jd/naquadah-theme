@@ -198,6 +198,9 @@
  '(font-lock-warning-face (:bold t :foreground orange-1))
  '(font-lock-function-name-face (:foreground butter-2 :bold t))
 
+ ;; This is only used by jd to highligh words like TODO, XXX in code
+ '(important (:box (:color aluminium-4 :line-width 2) :background scarlet-red-3 :bold t :foreground butter-2))
+
  '(comint-highlight-prompt ())
 
  '(isearch (:background orange-3 :foreground background))
