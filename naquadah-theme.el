@@ -158,10 +158,7 @@
     result))
 
 (defun naquadah-properties-get (lst prop)
-  (catch 'break
-    (dolist (elt lst)
-      (if (eq prop (car elt))
-          (throw 'break (cadr elt))))))
+  (cadr (assoc prop lst)))
 
 (defun naquadah-apply-unspecified-properties (inherit-props props)
   (while (car inherit-props)
