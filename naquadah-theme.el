@@ -72,7 +72,7 @@
          (gradient-10 . "#75507b") ;; plum-2
          (gradient-11 . "#c17d11") ;; chocolate-2
          )
-        (t
+	(((class color) (min-colors 256))
          (aluminium-1 . "color-255")
          (aluminium-2 . "color-253")
          (aluminium-3 . "color-251")
@@ -113,6 +113,88 @@
          (gradient-9 . "color-208")    ;; orange-2
          (gradient-10 . "color-96")    ;; plum-2
          (gradient-11 . "color-172")   ;; chocolate-2
+         )
+	(((class color) (min-colors 88))
+	 (aluminium-1 . "color-87")
+	 (aluminium-2 . "color-86")
+	 (aluminium-3 . "color-85")
+	 (aluminium-4 . "color-84")
+	 (aluminium-5 . "color-82")
+	 (aluminium-6 . "color-80")
+	 (butter-1 . "color-77")
+	 (butter-2 . "color-76")
+	 (butter-3 . "color-72")
+	 (orange-1 . "color-72")
+	 (orange-2 . "color-68")
+	 (orange-3 . "color-68")
+	 (chocolate-1 . "color-73")
+	 (chocolate-2 . "color-68")
+	 (chocolate-3 . "color-52")
+	 (chameleon-1 . "color-60")
+	 (chameleon-2 . "color-44")
+	 (chameleon-3 . "color-40")
+	 (sky-blue-1 . "color-43")
+	 (sky-blue-2 . "color-22")
+	 (sky-blue-3 . "color-22")
+	 (plum-1 . "color-54")
+	 (plum-2 . "color-37")
+	 (plum-3 . "color-33")
+	 (scarlet-red-1 . "color-64")
+	 (scarlet-red-2 . "color-64")
+	 (scarlet-red-3 . "color-48")
+	 (black . "color-16")
+	 (gradient-1 . "color-43")    ;; sky-blue-1
+	 (gradient-2 . "color-60")    ;; chameleon-1
+	 (gradient-3 . "color-77")    ;; butter-1
+	 (gradient-4 . "color-54")    ;; plum-1
+	 (gradient-5 . "color-73")    ;; chocolate-1
+	 (gradient-6 . "color-72")    ;; orange-1
+	 (gradient-7 . "color-22")    ;; sky-blue-2
+	 (gradient-8 . "color-44")    ;; chameleon-2
+	 (gradient-9 . "color-68")    ;; orange-2
+	 (gradient-10 . "color-37")   ;; plum-2
+	 (gradient-11 . "color-68")   ;; chocolate-2
+         )
+	(t
+         (aluminium-1 . "white")
+         (aluminium-2 . "white")
+         (aluminium-3 . "white")
+         (aluminium-4 . "white")
+         (aluminium-5 . "white")
+         (aluminium-6 . "white")
+         (butter-1 . "yellow")
+         (butter-2 . "yellow")
+         (butter-3 . "yellow")
+         (orange-1 . "yellow")
+         (orange-2 . "yellow")
+         (orange-3 . "yellow")
+         (chocolate-1 . "yellow")
+         (chocolate-2 . "yellow")
+         (chocolate-3 . "yellow")
+         (chameleon-1 . "green")
+         (chameleon-2 . "green")
+         (chameleon-3 . "green")
+         (sky-blue-1 . "blue")
+         (sky-blue-2 . "blue")
+         (sky-blue-3 . "blue")
+         (plum-1 . "magenta")
+         (plum-2 . "magenta")
+         (plum-3 . "magenta")
+         (scarlet-red-1 . "red")
+         (scarlet-red-2 . "red")
+         (scarlet-red-3 . "red")
+         (black . "black")
+         (gradient-1 . "blue")    ;; sky-blue-1
+         (gradient-2 . "green")     ;; chameleon-1
+         (gradient-3 . "yellow")    ;; butter-1
+         (gradient-4 . "yellow")    ;; plum-1
+         (gradient-5 . "yellow")    ;; chocolate-1
+         (gradient-6 . "yellow")    ;; orange-1
+         (gradient-7 . "blue")     ;; sky-blue-2
+         (gradient-8 . "green")     ;; chameleon-2
+         (gradient-9 . "red")    ;; orange-2
+         (gradient-10 . "yellow")    ;; plum-2
+         (gradient-11 . "yellow")   ;; chocolate-2
          ))
       "The color values for each color name for a given
       condition.  The format is: ((condition) (key . value) (key
