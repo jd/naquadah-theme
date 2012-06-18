@@ -142,6 +142,7 @@
 	 (scarlet-red-1 . "color-64")
 	 (scarlet-red-2 . "color-64")
 	 (scarlet-red-3 . "color-48")
+         (background . "color-80")
 	 (black . "color-16")
 	 (gradient-1 . "color-43")    ;; sky-blue-1
 	 (gradient-2 . "color-60")    ;; chameleon-1
@@ -183,6 +184,7 @@
          (scarlet-red-1 . "red")
          (scarlet-red-2 . "red")
          (scarlet-red-3 . "red")
+         (background . "black")
          (black . "black")
          (gradient-1 . "blue")    ;; sky-blue-1
          (gradient-2 . "green")     ;; chameleon-1
