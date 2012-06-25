@@ -1,6 +1,6 @@
-;;; naquadah-theme.el --- A color theme
+;;; naquadah-theme.el --- A theme based on Tango color set
 
-;; Copyright (C) 2011 Julien Danjou
+;; Copyright (C) 2011-2012 Free Software Foundation, Inc
 
 ;; Authors: Julien Danjou <julien@danjou.info>
 
@@ -22,8 +22,7 @@
 ;;; Code:
 
 (deftheme naquadah
-  "Naquadah theme.")
-
+  "A theme based on Tango color set.")
 
 ;; We want the face to be created even if they do not exist.
 (put 'naquadah 'theme-immediate t)
