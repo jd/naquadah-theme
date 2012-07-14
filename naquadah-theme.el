@@ -207,16 +207,6 @@
     name
     (car naquadah-colors))))
 
-(setq ansi-term-color-vector
-      `[unspecified ,(naquadah-get-colors 'black)
-                    ,(naquadah-get-colors 'scarlet-red-1)
-                    ,(naquadah-get-colors 'chameleon-1)
-                    ,(naquadah-get-colors 'butter-1)
-                    ,(naquadah-get-colors 'sky-blue-1)
-                    ,(naquadah-get-colors 'plum-1)
-                    "cyan3"
-                    ,(naquadah-get-colors 'aluminium-1)])
-
 (defun naquadah-simple-face-to-multiple (face)
   (let ((spec (car face))
         (lst (cadr face)))
@@ -504,6 +494,17 @@
  '(rst-level-5-face (:foreground gradient-5))
  '(rst-level-6-face (:foreground gradient-6))
 
+ ;; term-mode
+ '(term-color-black (:foreground black :background black))
+ '(term-color-red (:foreground scarlet-red-1 :background scarlet-red-1))
+ '(term-color-green (:foreground chameleon-1 :background chameleon-1))
+ '(term-color-yellow (:foreground butter-1 :background butter-1))
+ '(term-color-blue (:foreground sky-blue-1 :background sky-blue-1))
+ '(term-color-magenta (:foreground plum-1 :background plum-1))
+ '(term-color-cyan (:foreground "cyan3" :background "cyan3"))
+ '(term-color-white (:foreground aluminium-1 :background aluminium-1))
+
+ ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
  '(jabber-chat-error (:foreground scarlet-red-2 :weight bold))
