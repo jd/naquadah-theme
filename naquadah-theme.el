@@ -281,6 +281,9 @@
  '(tooltip (:inherit variable-pitch :foreground aluminium-1 :background black))
  '(bold (:bold t))
  '(italic (:italic t))
+ '(warning (:bold t :foreground orange-1))
+ '(error (:bold t :foreground scarlet-red-1))
+ '(success (:bold t :foreground chameleon-1))
 
  '(font-lock-builtin-face (:foreground sky-blue-1))
  '(font-lock-keyword-face (:inherit font-lock-builtin-face :bold t))
@@ -291,7 +294,7 @@
  '(font-lock-doc-face (:inherit shadow))
  '(font-lock-string-face (:foreground plum-1))
  '(font-lock-variable-name-face (:foreground scarlet-red-1))
- '(font-lock-warning-face (:bold t :foreground orange-1))
+ '(font-lock-warning-face (:inherit warning))
  '(font-lock-function-name-face (:foreground butter-2 :bold t))
 
  '(comint-highlight-prompt ())
@@ -504,7 +507,7 @@
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
- '(jabber-chat-error (:foreground scarlet-red-2 :weight bold))
+ '(jabber-chat-error (:inherit error))
  '(jabber-chat-prompt-foreign (:foreground scarlet-red-1 :weight bold))
  '(jabber-chat-prompt-local (:foreground sky-blue-1 :weight bold))
  '(jabber-chat-prompt-system (:foreground chameleon-1 :weight bold))
