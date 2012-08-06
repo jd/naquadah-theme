@@ -504,6 +504,9 @@
  '(term-color-cyan (:foreground "cyan3" :background "cyan3"))
  '(term-color-white (:foreground aluminium-1 :background aluminium-1))
 
+ ;; idle-higlight
+ '(idle-highlight (:foreground chameleon-1 :background aluminium-6))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
