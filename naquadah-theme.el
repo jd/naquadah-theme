@@ -472,6 +472,9 @@
  ;; makefile-mode
  '(makefile-space (:background plum-3))
 
+ ;; mmm-mode
+ '(mmm-default-submode-face (:background aluminium-6))
+
  ;; rainbow-delimiters
  '(rainbow-delimiters-depth-1-face (:foreground gradient-1))
  '(rainbow-delimiters-depth-2-face (:foreground gradient-2))
