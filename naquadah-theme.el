@@ -382,7 +382,7 @@
  '(org-level-8 (:bold t :foreground gradient-8))
 
  '(org-column ())
- '(org-mode-line-clock ())
+ '(org-mode-line-clock (nil))
  '(org-mode-line-clock-overrun (:foreground scarlet-red-1))
  '(org-document-title (:bold t :foreground sky-blue-1 :height 1.4))
  '(org-document-info (:foreground sky-blue-1 :italic t))
