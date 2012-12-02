@@ -464,7 +464,7 @@
  ;; git-commit-mode
  '(git-commit-summary-face (:bold t))
  '(git-commit-branch-face (:foreground orange-2 :bold t))
- '(git-commit-nonempty-second-line-face ((:foreground scarlet-red-2)))
+ '(git-commit-nonempty-second-line-face (:foreground scarlet-red-2))
  '(git-commit-comment-face (:inherit font-lock-comment-face))
  '(git-commit-known-pseudo-header-face (:inherit gnus-header-name-face))
  '(git-commit-pseudo-header-face (:inherit gnus-header-content))
