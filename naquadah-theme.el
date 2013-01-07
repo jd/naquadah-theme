@@ -511,6 +511,12 @@
  ;; idle-highlight
  '(idle-highlight (:foreground aluminium-1 :background scarlet-red-3))
 
+ ;; doc-mode
+ '(doc-title-1-face (:foreground gradient-1 :bold t :height 1.3 :inherit variable-pitch))
+ '(doc-title-2-face (:foreground gradient-2 :bold t :height 1.2 :inherit variable-pitch))
+ '(doc-title-3-face (:foreground gradient-3 :bold t :height 1.1 :inherit variable-pitch))
+ '(doc-title-4-face (:foreground gradient-4 :bold t :inherit variable-pitch))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
