@@ -517,6 +517,14 @@
  '(doc-title-3-face (:foreground gradient-3 :bold t :height 1.1 :inherit variable-pitch))
  '(doc-title-4-face (:foreground gradient-4 :bold t :inherit variable-pitch))
 
+ ;; flymake
+ '(flymake-errline (:underline (:style wave :color scarlet-red-1)))
+ '(flymake-warnline (:underline (:style wave :color orange-2)))
+
+ ;; flyspell
+ '(flyspell-incorrect (:underline (:style wave :color scarlet-red-1)))
+ '(flyspell-duplicate (:underline (:style wave :color orange-2)))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
