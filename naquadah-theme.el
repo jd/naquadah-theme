@@ -525,6 +525,12 @@
  '(flyspell-incorrect (:underline (:style wave :color scarlet-red-1)))
  '(flyspell-duplicate (:underline (:style wave :color orange-2)))
 
+  ;; git-gutter
+ '(git-gutter:modified (:foreground orange-1))
+ '(git-gutter:added (:foreground chameleon-1))
+ '(git-gutter:deleted (:foreground scarlet-red-1))
+ '(git-gutter:unchanged (:foreground butter-1))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
