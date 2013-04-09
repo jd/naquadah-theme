@@ -264,7 +264,7 @@
  '(shadow (:foreground aluminium-3))
  '(secondary-selection (:background sky-blue-3))
  '(cursor (:background scarlet-red-3))
- '(hl-line (:background aluminium-6))
+ '(hl-line (:background black))
  '(highlight (:background scarlet-red-2))
  '(fringe (:background black))
  '(mode-line (:foreground aluminium-1 :background black
