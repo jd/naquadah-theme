@@ -584,6 +584,11 @@
  '(jabber-title-medium (:weight bold :height 1.2))
  '(jabber-title-small (:weight bold :height 1.0)))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'naquadah)
 
 ;; Local Variables:
