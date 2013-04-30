@@ -565,6 +565,9 @@
  '(git-gutter:deleted (:foreground scarlet-red-1))
  '(git-gutter:unchanged (:foreground butter-1))
 
+ '(ido-first-match (:foreground orange-1 :bold t))
+ '(ido-only-match (:foreground orange-1 :bold t))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
