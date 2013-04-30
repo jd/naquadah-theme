@@ -568,6 +568,18 @@
  '(ido-first-match (:foreground orange-1 :bold t))
  '(ido-only-match (:foreground orange-1 :bold t))
 
+ ;; helm
+ '(helm-source-header (:inherit success))
+ '(helm-visible-mark (:inherit region :foreground aluminium-3))
+ '(helm-header (:inherit mode-line))
+ '(helm-candidate-number (:inherit highlight))
+ '(helm-selection (:inherit secondary-selection))
+ '(helm-match (:inherit warning))
+ '(helm-separator (:inherit message-separator))
+ '(helm-action (:foreground sky-blue-1))
+ '(helm-ff-directory (:foreground sky-blue-1 :background nil :underline nil))
+ '(helm-ff-file (:inherit link :foreground plum-1 :underline nil))
+
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
  '(jabber-activity-personal-face (:foreground sky-blue-1 :weight bold))
