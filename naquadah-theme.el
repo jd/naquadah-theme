@@ -57,7 +57,7 @@
      (scarlet-red-1 . "#ef2929")
      (scarlet-red-2 . "#cc0000")
      (scarlet-red-3 . "#a40000")
-     (background . "#252A2B")
+     (background . "#262B2C")
      (black . "#0c191C")
      (gradient-1 . "#729fcf")  ;; sky-blue-1
      (gradient-2 . "#8ae234")  ;; chameleon-1
@@ -269,8 +269,8 @@
  '(fringe (:background black))
  '(mode-line (:foreground aluminium-1 :background black
                           :box (:line-width 1 :color aluminium-6)))
- '(mode-line-inactive (:foreground aluminium-5 :background aluminium-6
-                                   :box (:line-width 1 :color black)))
+ '(mode-line-inactive (:foreground aluminium-5 :background "#1F2427"
+                                   :box (:line-width 1 :color background)))
  '(mode-line-buffer-id (:bold t :foreground orange-2))
  '(header-line (:foreground aluminium-1 :background black
                             :box (:line-width 1 :color aluminium-6)))
@@ -296,6 +296,8 @@
  '(font-lock-variable-name-face (:foreground scarlet-red-1))
  '(font-lock-warning-face (:inherit warning))
  '(font-lock-function-name-face (:foreground butter-2 :bold t))
+
+ '(auto-dim-other-buffers-face (:background "#1F2427"))
 
  '(comint-highlight-prompt ())
 
