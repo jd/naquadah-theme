@@ -367,7 +367,7 @@
 
  '(gnus-summary-selected (:background sky-blue-3 :foreground aluminium-1))
  '(gnus-button (:bold t))
- '(spam (:background black :foreground orange-2))
+ '(spam (:foreground orange-2 :strike-through orange-3))
 
  ;; Message
  '(message-header-newsgroups (:inherit gnus-header-to))
