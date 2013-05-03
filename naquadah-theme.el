@@ -222,7 +222,7 @@
     (while (car lst)
       (let ((key (car lst))
             (val (cadr lst)))
-        (if (memq key '(:foreground :background :color))
+        (if (memq key '(:foreground :background :color :overline :strike-through))
             (setq val (or (cdr (assq val color-alist)) val)))
         (if (listp val)
             (setq val (naquadah-color-list-expand entry val)))
@@ -328,6 +328,7 @@
  ;; '(custom-button-mouse-pressed-unraised  ((t (:inherit custom-button-unraised :background "gray60"))))
  '(custom-documentation (:inherit font-lock-comment-face))
 
+ ;; Gnus
  '(gnus-cite-1 (:foreground gradient-1))
  '(gnus-cite-2 (:foreground gradient-2))
  '(gnus-cite-3 (:foreground gradient-3))
@@ -346,23 +347,29 @@
  '(gnus-header-content (:italic t :foreground aluminium-2))
  '(gnus-header-newsgroups (:inherit gnus-header-to))
  '(gnus-signature (:italic t :foreground aluminium-3))
- '(gnus-summary-cancelled (:background black :foreground butter-1))
+ '(gnus-summary-cancelled (:foreground butter-1 :strike-through butter-3))
+
+ '(gnus-summary-high-ancient (:foreground chameleon-1))
  '(gnus-summary-normal-ancient (:foreground chameleon-3))
- '(gnus-summary-normal-read (:foreground chameleon-1))
- '(gnus-summary-normal-ticked (:foreground scarlet-red-1))
- '(gnus-summary-normal-unread (:foreground aluminium-1))
- '(gnus-summary-high-ancient (:inherit gnus-summary-normal-ancient))
- '(gnus-summary-high-read (:inherit gnus-summary-normal-read))
- '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked))
- '(gnus-summary-high-unread (:inherit gnus-summary-normal-unread))
  '(gnus-summary-low-ancient (:inherit gnus-summary-normal-ancient :italic t))
+
+ '(gnus-summary-high-read (:foreground chameleon-1 :bold t))
+ '(gnus-summary-normal-read (:foreground chameleon-3))
  '(gnus-summary-low-read (:inherit gnus-summary-normal-read :italic t))
+
+ '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked))
+ '(gnus-summary-normal-ticked (:foreground scarlet-red-1 :bold t))
  '(gnus-summary-low-ticked (:inherit gnus-summary-normal-ticked :italic t))
- '(gnus-summary-low-unread (:inherit gnus-summary-normal-unread :italic t))
+
+ '(gnus-summary-high-unread (:foreground sky-blue-1 :bold t))
+ '(gnus-summary-normal-unread (:foreground aluminium-1))
+ '(gnus-summary-low-unread (:foreground aluminium-4 :italic t))
+
  '(gnus-summary-selected (:background sky-blue-3 :foreground aluminium-1))
  '(gnus-button (:bold t))
  '(spam (:background black :foreground orange-2))
 
+ ;; Message
  '(message-header-newsgroups (:inherit gnus-header-to))
  '(message-header-name (:inherit gnus-header-name))
  '(message-header-to (:inherit gnus-header-to))
