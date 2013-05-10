@@ -30,6 +30,7 @@
 ;; These colors are stolen from Tango.
 (defvar naquadah-colors
   '((((class color) (min-colors 65535))
+     (white . "#ffffff")
      (aluminium-1 . "#eeeeec")
      (aluminium-2 . "#d3d7cf")
      (aluminium-3 . "#babdb6")
@@ -264,7 +265,7 @@
  '(shadow (:foreground aluminium-3))
  '(secondary-selection (:background sky-blue-3))
  '(cursor (:background scarlet-red-3))
- '(hl-line (:background black))
+ '(hl-line (:background aluminium-5))
  '(highlight (:background scarlet-red-2))
  '(fringe (:background black))
  '(mode-line (:foreground aluminium-1 :background black
@@ -342,30 +343,33 @@
  '(gnus-cite-11 (:foreground gradient-11))
  '(gnus-header-name (:bold t :foreground sky-blue-1))
  '(gnus-header-from (:bold t))
- '(gnus-header-to (:bold t :foreground aluminium-2))
  '(gnus-header-subject (:foreground butter-1))
  '(gnus-header-content (:italic t :foreground aluminium-2))
- '(gnus-header-newsgroups (:inherit gnus-header-to))
- '(gnus-signature (:italic t :foreground aluminium-3))
- '(gnus-summary-cancelled (:foreground butter-1 :strike-through butter-3))
+ '(gnus-header-newsgroups (:inherit gnus-header-from))
+ '(gnus-signature (:inherit font-lock-comment-face))
+ '(gnus-summary-cancelled (:foreground plum-1 :strike-through plum-3))
 
- '(gnus-summary-high-ancient (:foreground chameleon-1))
- '(gnus-summary-normal-ancient (:foreground chameleon-3))
- '(gnus-summary-low-ancient (:inherit gnus-summary-normal-ancient :italic t))
+ '(gnus-summary-high-ancient (:inherit gnus-summary-high-read))
+ '(gnus-summary-normal-ancient (:inherit gnus-summary-normal-read))
+ '(gnus-summary-low-ancient (:inherit gnus-summary-low-unread))
 
- '(gnus-summary-high-read (:foreground chameleon-1 :bold t))
- '(gnus-summary-normal-read (:foreground chameleon-3))
- '(gnus-summary-low-read (:inherit gnus-summary-normal-read :italic t))
+ '(gnus-summary-high-read (:inherit gnus-summary-normal-read :background sky-blue-3
+                                    :box (:line-width 1 :color sky-blue-3)))
+ '(gnus-summary-normal-read (:foreground aluminium-1 :italic t))
+ '(gnus-summary-low-read (:inherit gnus-summary-normal-read))
 
- '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked))
- '(gnus-summary-normal-ticked (:foreground scarlet-red-1 :bold t))
- '(gnus-summary-low-ticked (:inherit gnus-summary-normal-ticked :italic t))
+ '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked :bold t))
+ '(gnus-summary-normal-ticked (:background scarlet-red-3
+                                           :box (:line-width 1 :color scarlet-red-2)))
+ '(gnus-summary-low-ticked (:inherit gnus-summary-normal-ticked))
 
- '(gnus-summary-high-unread (:foreground sky-blue-1 :bold t))
- '(gnus-summary-normal-unread (:foreground aluminium-1))
- '(gnus-summary-low-unread (:foreground aluminium-4 :italic t))
+ '(gnus-summary-high-unread (:inherit gnus-summary-normal-unread
+                                      :background sky-blue-2
+                                      :box (:line-width 1 :color sky-blue-2)))
+ '(gnus-summary-normal-unread (:foreground aluminium-1 :bold t))
+ '(gnus-summary-low-unread (:foreground aluminium-1))
 
- '(gnus-summary-selected (:background sky-blue-3 :foreground aluminium-1))
+ '(gnus-summary-selected (:background butter-3 :foreground black))
  '(gnus-button (:bold t))
  '(spam (:foreground orange-2 :strike-through orange-3))
 
