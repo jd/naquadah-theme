@@ -538,12 +538,12 @@
  '(rainbow-delimiters-unmatched-face (:foreground black :background butter-3))
 
  ;; rst-mode
- '(rst-level-1-face (:foreground gradient-1 :height 1.3))
- '(rst-level-2-face (:foreground gradient-2 :height 1.2))
- '(rst-level-3-face (:foreground gradient-3 :height 1.1))
- '(rst-level-4-face (:foreground gradient-4))
- '(rst-level-5-face (:foreground gradient-5))
- '(rst-level-6-face (:foreground gradient-6))
+ '(rst-level-1-face (:foreground gradient-1 :background aluminium-6 :height 1.3))
+ '(rst-level-2-face (:foreground gradient-2 :background aluminium-6 :height 1.2))
+ '(rst-level-3-face (:foreground gradient-3 :background aluminium-6 :height 1.1))
+ '(rst-level-4-face (:foreground gradient-4 :background aluminium-6))
+ '(rst-level-5-face (:foreground gradient-5 :background aluminium-6))
+ '(rst-level-6-face (:foreground gradient-6 :background aluminium-6))
 
  ;; term-mode
  '(term-color-black (:foreground black :background black))
