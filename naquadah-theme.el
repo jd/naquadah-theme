@@ -265,7 +265,9 @@
  '(shadow (:foreground aluminium-3))
  '(secondary-selection (:background sky-blue-3))
  '(cursor (:background scarlet-red-3))
- '(hl-line (:background aluminium-5))
+ '(trailing-whitespace (:background scarlet-red-1))
+ '(escape-glyph (:foreground chameleon-1))
+                                           
  '(highlight (:background scarlet-red-2))
  '(fringe (:background black))
  '(mode-line (:foreground aluminium-1 :background black
