@@ -267,7 +267,7 @@
  '(cursor (:background scarlet-red-3))
  '(trailing-whitespace (:background scarlet-red-1))
  '(escape-glyph (:foreground chameleon-1))
-                                           
+
  '(highlight (:background scarlet-red-2))
  '(fringe (:background black))
  '(mode-line (:foreground aluminium-1 :background black
