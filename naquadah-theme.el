@@ -492,6 +492,16 @@
  '(diff-header (:background aluminium-6))
  '(diff-file-header (:foreground aluminium-1))
 
+ ;; ediff-mode
+ '(ediff-even-diff-A (:inherit diff-header))
+ '(ediff-odd-diff-A (:background aluminium-5))
+ '(ediff-even-diff-B (:inherit diff-header))
+ '(ediff-odd-diff-B (:background aluminium-5))
+ '(ediff-current-diff-A (:background "#553333"))
+ '(ediff-current-diff-B (:background "#335533"))
+ '(ediff-fine-diff-A (:background "#723030"))
+ '(ediff-fine-diff-B (:background "#307030"))
+
  ;; magit
  '(magit-diff-add (:inherit diff-added))
  '(magit-diff-del (:inherit diff-removed))
