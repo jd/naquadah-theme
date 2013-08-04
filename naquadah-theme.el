@@ -577,6 +577,25 @@
  '(doc-title-3-face (:foreground gradient-3 :bold t :height 1.1 :inherit variable-pitch))
  '(doc-title-4-face (:foreground gradient-4 :bold t :inherit variable-pitch))
 
+ ;; markup-faces
+ '(markup-gen-face (:foreground sky-blue-1))
+ '(markup-title-0-face (:foreground gradient-1 :bold t :height 1.3 :inherit variable-pitch))
+ '(markup-title-1-face (:foreground gradient-2 :bold t :height 1.2 :inherit variable-pitch))
+ '(markup-title-2-face (:foreground gradient-3 :bold t :height 1.1 :inherit variable-pitch))
+ '(markup-title-3-face (:foreground gradient-4 :bold t :inherit variable-pitch))
+ '(markup-title-4-face (:foreground gradient-5 :bold t :inherit variable-pitch))
+ '(markup-title-5-face (:foreground gradient-6 :bold t :inherit variable-pitch))
+ '(markup-emphasis-face (:slant italic))
+ '(markup-strong-face (:weight bold))
+ '(markup-code-face (:inherit fixed-pitch))
+ '(markup-verbatime-face (:background aluminium-6))
+ '(markup-meta-face (:foreground aluminium-3))
+ '(markup-meta-hide-face (:foreground aluminium-4 :height 0.8))
+ '(markup-reference-face (:foreground sky-blue-1))
+ '(markup-list-face (:background aluminium-6 :foreground orange-2))
+ '(markup-complex-replacement-face (:box (:line-width 2 :color plum-2)
+                                         :foreground white :background plum-3))
+
  ;; flymake
  '(flymake-errline (:underline (:style wave :color scarlet-red-1)))
  '(flymake-warnline (:underline (:style wave :color orange-2)))
