@@ -597,6 +597,7 @@
  '(markup-replacement-face (:foreground plum-2))
  '(markup-complex-replacement-face (:box (:line-width 2 :color plum-2)
                                          :foreground white :background plum-3))
+ '(markup-verbatim-face (:inherit fixed-pitch))
 
  ;; flymake
  '(flymake-errline (:underline (:style wave :color scarlet-red-1)))
