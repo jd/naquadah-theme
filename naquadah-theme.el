@@ -30,7 +30,6 @@
 ;; These colors are stolen from Tango.
 (defvar naquadah-colors
   '((((class color) (min-colors 65535))
-     (white . "#ffffff")
      (aluminium-1 . "#eeeeec")
      (aluminium-2 . "#d3d7cf")
      (aluminium-3 . "#babdb6")
@@ -596,7 +595,7 @@
  '(markup-secondary-text-face (:foreground scarlet-red-1 :height 0.8))
  '(markup-replacement-face (:foreground plum-2))
  '(markup-complex-replacement-face (:box (:line-width 2 :color plum-2)
-                                         :foreground white :background plum-3))
+                                         :foreground "white" :background plum-3))
  '(markup-verbatim-face (:inherit fixed-pitch))
 
  ;; flymake
