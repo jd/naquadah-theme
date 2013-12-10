@@ -360,7 +360,7 @@
  '(gnus-summary-normal-read (:foreground aluminium-1 :italic t))
  '(gnus-summary-low-read (:inherit gnus-summary-normal-read))
 
- '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked :bold t))
+ '(gnus-summary-high-ticked (:inherit gnus-summary-normal-ticked))
  '(gnus-summary-normal-ticked (:background scarlet-red-3
                                            :box (:line-width 1 :color scarlet-red-2)))
  '(gnus-summary-low-ticked (:inherit gnus-summary-normal-ticked))
@@ -368,7 +368,7 @@
  '(gnus-summary-high-unread (:inherit gnus-summary-normal-unread
                                       :background sky-blue-2
                                       :box (:line-width 1 :color sky-blue-2)))
- '(gnus-summary-normal-unread (:foreground aluminium-1 :bold t))
+ '(gnus-summary-normal-unread (:foreground aluminium-1))
  '(gnus-summary-low-unread (:foreground aluminium-1))
 
  '(gnus-summary-selected (:background butter-3 :foreground black))
