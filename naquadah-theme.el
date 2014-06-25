@@ -631,6 +631,7 @@
  '(helm-action (:foreground sky-blue-1))
  '(helm-ff-directory (:foreground sky-blue-1 :background nil :underline nil))
  '(helm-ff-file (:inherit link :foreground plum-1 :underline nil))
+ '(helm-grep-file (:inherit link :foreground plum-1 :underline t))
 
  ;; jabber
  '(jabber-activity-face (:foreground scarlet-red-1 :weight bold))
