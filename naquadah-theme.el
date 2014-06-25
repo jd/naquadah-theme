@@ -602,6 +602,11 @@
  '(flymake-errline (:underline (:style wave :color scarlet-red-1)))
  '(flymake-warnline (:underline (:style wave :color orange-2)))
 
+ ;; flycheck
+ '(flycheck-error (:underline (:style wave :color scarlet-red-1)))
+ '(flycheck-warning (:underline (:style wave :color orange-2)))
+ '(flycheck-info (:underline (:style wave :color chameleon-1)))
+
  ;; flyspell
  '(flyspell-incorrect (:underline (:style wave :color scarlet-red-1)))
  '(flyspell-duplicate (:underline (:style wave :color orange-2)))
