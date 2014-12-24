@@ -51,24 +51,24 @@
      (sky-blue-1 . "#729fcf")
      (sky-blue-2 . "#3465a4")
      (sky-blue-3 . "#204a87")
-     (plum-1 . "#ad7fa8")
-     (plum-2 . "#75507b")
-     (plum-3 . "#5c3566")
-     (scarlet-red-1 . "#ef2929")
-     (scarlet-red-2 . "#cc0000")
-     (scarlet-red-3 . "#a40000")
+     (plum-1 . "#de7fa8")
+     (plum-2 . "#b5507b")
+     (plum-3 . "#9c3566")
+     (scarlet-red-1 . "#ff2929")
+     (scarlet-red-2 . "#dc1010")
+     (scarlet-red-3 . "#b40000")
      (background . "#262B2C")
      (black . "#0c191C")
      (gradient-1 . "#729fcf")  ;; sky-blue-1
      (gradient-2 . "#8ae234")  ;; chameleon-1
      (gradient-3 . "#fce94f")  ;; butter-1
-     (gradient-4 . "#ad7fa8")  ;; plum-1
+     (gradient-4 . "#de7fa8")  ;; plum-1
      (gradient-5 . "#e9b96e")  ;; chocolate-1
      (gradient-6 . "#fcaf3e")  ;; orange-1
      (gradient-7 . "#3465a4")  ;; sky-blue-2
      (gradient-8 . "#73d216")  ;; chameleon-2
      (gradient-9 . "#f57900")  ;; orange-2
-     (gradient-10 . "#75507b") ;; plum-2
+     (gradient-10 . "#b5507b") ;; plum-2
      (gradient-11 . "#c17d11") ;; chocolate-2
      )
     (((class color) (min-colors 256))
@@ -284,8 +284,8 @@
  '(tooltip (:inherit variable-pitch :foreground aluminium-1 :background black))
  '(bold (:bold t))
  '(italic (:italic t))
- '(warning (:bold t :foreground orange-1))
- '(error (:bold t :foreground scarlet-red-1))
+ '(warning (:bold t :foreground orange-1 :italic t))
+ '(error (:bold t :foreground scarlet-red-1 :italic t))
  '(success (:bold t :foreground chameleon-1))
 
  '(font-lock-builtin-face (:foreground sky-blue-1))
@@ -293,12 +293,12 @@
  '(font-lock-comment-face (:inherit shadow :italic t))
  '(font-lock-comment-delimiter-face (:inherit font-lock-comment-face))
  '(font-lock-constant-face (:foreground chameleon-2))
- '(font-lock-type-face (:inherit font-lock-constant-face :bold t))
- '(font-lock-doc-face (:inherit shadow))
+ '(font-lock-type-face (:foreground butter-1 :bold t))
+ '(font-lock-doc-face (:inherit shadow :italic t))
  '(font-lock-string-face (:foreground plum-1))
  '(font-lock-variable-name-face (:foreground scarlet-red-1))
  '(font-lock-warning-face (:inherit warning))
- '(font-lock-function-name-face (:foreground butter-2 :bold t))
+ '(font-lock-function-name-face (:foreground orange-1 :bold t))
 
  '(auto-dim-other-buffers-face (:background "#1F2427"))
 
