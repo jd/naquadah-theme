@@ -501,6 +501,12 @@
  '(ediff-fine-diff-A (:background "#723030"))
  '(ediff-fine-diff-B (:background "#307030"))
 
+ ;; smerge
+ '(smerge-mine (:background "#723030"))
+ '(smerge-refined-removed (:background scarlet-red-2))
+ '(smerge-other (:background "#335533"))
+ '(smerge-refined-added (:background "#307030"))
+
  ;; magit
  '(magit-diff-add (:inherit diff-added))
  '(magit-diff-del (:inherit diff-removed))
