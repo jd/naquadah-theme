@@ -595,7 +595,7 @@
  '(markup-code-face (:inherit fixed-pitch))
  '(markup-verbatime-face (:background aluminium-6))
  '(markup-meta-face (:foreground aluminium-3))
- '(markup-meta-hide-face (:foreground aluminium-4 :height 0.8))
+ '(markup-meta-hide-face (:foreground aluminium-5))
  '(markup-reference-face (:foreground sky-blue-1))
  '(markup-list-face (:background aluminium-6 :foreground orange-2))
  '(markup-secondary-text-face (:foreground scarlet-red-1 :height 0.8))
