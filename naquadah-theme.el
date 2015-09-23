@@ -508,23 +508,23 @@
  '(smerge-refined-added (:background "#307030"))
 
  ;; magit
- '(magit-diff-add (:inherit diff-added))
- '(magit-diff-del (:inherit diff-removed))
- '(magit-diff-none (:inherit diff-context))
- '(magit-diff-hunk-header (:inherit (magit-header diff-hunk-header)))
- '(magit-diff-file-header  (:inherit (magit-header diff-file-header)))
- '(magit-log-sha1 (:foreground scarlet-red-1))
- '(magit-log-graph (:foreground aluminium-2))
- '(magit-item-highlight (:background aluminium-6))
- '(magit-item-mark (:foreground orange-1))
- '(magit-log-tag-label (:background chameleon-3 :box t :foreground aluminium-6))
- '(magit-log-head-label-bisect-good (:background chameleon-2 :box t))
- '(magit-log-head-label-bisect-bad (:background scarlet-red-3 :box t))
- '(magit-log-head-label-remote (:foreground aluminium-6 :background butter-2 :box (:color butter-3)))
- '(magit-log-head-label-tags (:inherit (magit-log-tag-label)))
- '(magit-log-head-label-local (:foreground aluminium-1 :background sky-blue-2
-                                           :box (:color sky-blue-3)))
+ '(magit-section-heading (:foreground orange-1 :weight bold))
+ '(magit-section-highlight (:background aluminium-6))
+ '(magit-hash (:foreground scarlet-red-1))
+ '(magit-branch-local (:foreground sky-blue-1))
+ '(magit-tag (:background butter-2 :box (:color aluminium-5) :foreground aluminium-6))
+ '(magit-diff-file-heading-highlight (:weight bold))
 
+ '(magit-diff-hunk-heading (:inherit diff-file-header))
+ '(magit-diff-added (:inherit diff-added))
+ '(magit-diff-removed (:inherit diff-removed))
+
+ '(magit-diff-hunk-heading-highlight (:inherit diff-file-header :background aluminium-5))
+ '(magit-diff-added-highlight (:inherit diff-added :background aluminium-6))
+ '(magit-diff-removed-highlight (:inherit diff-removed :background aluminium-6))
+ '(magit-diff-context-highlight (:background aluminium-6))
+
+ '(magit-log-graph (:foreground aluminium-2))
 
  ;; git-commit-mode
  '(git-commit-summary-face (:weight bold))
