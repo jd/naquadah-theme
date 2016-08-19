@@ -512,7 +512,7 @@
  '(magit-section-highlight (:background aluminium-6))
  '(magit-hash (:foreground scarlet-red-1))
  '(magit-branch-local (:foreground sky-blue-1))
- '(magit-tag (:background butter-2 :box (:color aluminium-5) :foreground aluminium-6))
+ '(magit-tag (:background plum-3 :box (:color plum-2) :foreground aluminium-2))
  '(magit-diff-file-heading-highlight (:weight bold))
 
  '(magit-diff-hunk-heading (:inherit diff-file-header))
