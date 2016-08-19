@@ -518,6 +518,8 @@
  '(magit-diff-hunk-heading (:inherit diff-file-header))
  '(magit-diff-added (:inherit diff-added))
  '(magit-diff-removed (:inherit diff-removed))
+ '(magit-diffstat-added (:inherit diff-added))
+ '(magit-diffstat-removed (:inherit diff-removed))
 
  '(magit-diff-hunk-heading-highlight (:inherit diff-file-header :background aluminium-5))
  '(magit-diff-added-highlight (:inherit diff-added :background aluminium-6))
