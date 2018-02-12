@@ -511,6 +511,7 @@
  '(magit-section-heading (:foreground orange-1 :weight bold))
  '(magit-section-highlight (:background aluminium-6))
  '(magit-hash (:foreground scarlet-red-1))
+ '(magit-branch-current (:foreground sky-blue-1))
  '(magit-branch-local (:foreground sky-blue-1))
  '(magit-branch-remote (:foreground chameleon-2))
  '(magit-tag (:background plum-3 :box (:color plum-2) :foreground aluminium-2))
