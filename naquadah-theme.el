@@ -617,6 +617,10 @@
  '(flycheck-warning (:underline (:style wave :color orange-2)))
  '(flycheck-info (:underline (:style wave :color chameleon-1)))
 
+ ;; flycheck-color-mode-line-error-face
+ '(flycheck-color-mode-line-error-face (:inherit error :italic nil))
+ '(flycheck-color-mode-line-warning-face (:inherit warning :italic nil))
+
  ;; flyspell
  '(flyspell-incorrect (:underline (:style wave :color scarlet-red-1)))
  '(flyspell-duplicate (:underline (:style wave :color orange-2)))
