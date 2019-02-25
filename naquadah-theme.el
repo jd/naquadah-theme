@@ -293,6 +293,7 @@
  '(font-lock-comment-face (:inherit shadow :italic t))
  '(font-lock-comment-delimiter-face (:inherit font-lock-comment-face))
  '(font-lock-constant-face (:foreground chameleon-2))
+ '(font-lock-negation-char-face (:foreground chameleon-2))
  '(font-lock-type-face (:foreground butter-1 :weight bold))
  '(font-lock-doc-face (:inherit shadow :italic t))
  '(font-lock-string-face (:foreground plum-1))
