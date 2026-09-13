@@ -1,4 +1,4 @@
-;;; naquadah-theme.el --- A theme based on Tango color set  -*- lexical-binding: t; -*-
+;;; naquadah-theme.el --- A theme based on Tango color set  -*- lexical-binding: nil; -*-
 
 ;; Copyright (C) 2011-2012 Free Software Foundation, Inc
 
